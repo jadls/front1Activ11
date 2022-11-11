@@ -1,0 +1,21 @@
+body{
+    font-size: 2rem;
+}
+.item{
+    border: 1px solid black;
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    height: 60vh;
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
+}

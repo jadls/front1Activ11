@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background: #E5E5E5;
+    width: 1024;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    width: 1024px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+#header-nav ul{
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    color: white;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#caja1  span {
+    color: white;
+}
+#caja1 {
+    height: 350px;
+    width: 490px;
+    color: red;
+    margin-right: 2.5px;
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+}
+#caja2{
+    position: relative;
+    width: 491px;
+    height: 350px;    
+    background: #FFFFFF;
+    margin-left: 2.5px;
+    border-radius: 5px;    
+}
+#caja2 h2{
+    text-align: center;
+    color: red;
+}
+#caja2 h3{
+    position: relative;
+    left: 26px;
+}
+#caja2 div ol{
+    font-weight: bold;
+    line-height: 30px;
+
+}
+#caja2 span{
+    position:relative;
+    left:  350px;
+    bottom: 150px;
+} 
+
+section{
+    position: absolute;
+    top: 135px;
+    left: 19px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-nav ul{
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    width: 1024px;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+}
